@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'clients',
     'reservations',
     'events',
+    'newsletter',
 ]
 
 MIDDLEWARE = [

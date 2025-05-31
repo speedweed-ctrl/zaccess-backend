@@ -30,6 +30,8 @@ urlpatterns = [
     path("api/events/",include('events.urls')),
     path("api/stats/",include('dashboard.urls')),
     path("api/token/", TokenObtainPairView.as_view(), name="token_obtain_pair"),
+    path("api/newsletter/", include('newsletter.urls')),
+
 
 ]
 
